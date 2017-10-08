@@ -1,0 +1,106 @@
+body .container.is-fluid {
+    margin: 0;
+}
+body .container .columns .column {
+    border: 1px solid white;
+}
+body .columns.is-gapless:not(:last-child) {
+    margin: 0;
+}
+body .columns {
+    margin: 0;
+}
+body .columns .title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: darkred;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+body .fancybox-container .fancybox-inner .people-form {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+body .fancybox-container .fancybox-inner .people-form .people-title {
+    padding: 15px 15px 0 15px;
+    color: white;
+}
+body .fancybox-container .fancybox-inner .people-form .people-fraction {
+    padding: 15px 15px 0 15px;
+    color: white;
+}
+body .fancybox-container .fancybox-inner .people-form .people-status{
+    padding: 15px 15px 0 15px;
+    color: white;
+}
+body .container .columns .column figure a img {
+    z-index: 999;
+}
+body .container .columns .column figure .people-form {
+    position: absolute;
+    display: none;
+}
+body .container .columns .column {
+    width: 150px;
+}
+body .container .columns hr {
+    background-color: darkred;
+}
+#deputies {
+    justify-content: center;
+}
+#deputies .column {
+    padding: 0;
+}
+
+#tooltip
+{
+    text-align: center;
+    color: #fff;
+    background: darkred;
+    position: absolute;
+    z-index: 100;
+    padding: 15px;
+}
+
+#tooltip:after /* triangle decoration */
+{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid darkred;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px;
+}
+
+#tooltip.top:after
+{
+    border-top-color: transparent;
+    border-bottom: 10px solid darkred;
+    top: -20px;
+    bottom: auto;
+}
+
+#tooltip.left:after
+{
+    left: 10px;
+    margin: 0;
+}
+
+#tooltip.right:after
+{
+    right: 10px;
+    left: auto;
+    margin: 0;
+}
+
+#tooltip hr {
+    margin: .25rem;
+}
